@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+app:
+  cacheDir: data/cache
+
+spring:
+  jackson:
+    serialization:
+      indent_output: true
